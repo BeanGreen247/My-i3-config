@@ -1,0 +1,36 @@
+general {
+        output_format = "i3bar"
+        colors = true
+        interval = 5
+}
+order+="disk /"
+order+="wireless wlx0013ef8b1372"
+order+="volume master0"
+order+="volume master1"
+order+="tztime local"
+order+="battery 0"
+wireless wlx0013ef8b1372 {
+        format_up = "W: %ip"
+        format_down = "W: down"
+}
+tztime local {
+        format = "%Y-%m-%d %H:%M:%S"
+}
+disk "/" {
+        format = "%free"
+}
+volume master1 {
+        format = "Headphones: %volume"
+        format_muted = "Headphones: muted (%volume)"
+        device = "pulse:1"
+}
+volume master0 {
+        format = "Speakers: %volume"
+        format_muted = "Speakers: muted (%volume)"
+        device = "pulse:0"
+}
+
+battery 0 {
+        format = "%percentage %emptytime"
+	path = "/sys/class/power_supply/CMB1/uevent"
+}

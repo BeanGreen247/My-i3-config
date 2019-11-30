@@ -1,0 +1,31 @@
+general {
+        output_format = "dzen2"
+        colors = true
+        interval = 5
+}
+
+order += "wireless wlan0"
+order += "tztime local"
+
+
+wireless wlan0 {
+        format_up = "W: (%quality at %essid, %bitrate) %ip"
+        format_down = "W: down"
+}
+
+me local {
+        format = "%Y-%m-%d %H:%M:%S"
+}
+
+tztime berlin {
+        format = "%Y-%m-%d %H:%M:%S %Z"
+        timezone = "Europe/Berlin"
+}
+
+load {
+        format = "%5min"
+}
+
+disk "/" {
+        format = "%free"
+}
