@@ -3,7 +3,7 @@ Add repos and install packages
 ```
 sudo add-apt-repository ppa:kgilmer/speed-ricer
 sudo apt update
-sudo apt install -y i3 i3blocks i3status i3-gaps
+sudo apt install -y i3 i3blocks i3status i3-gaps xfce4-power-manager
 ```
 Next download the config files
 ```
