@@ -151,16 +151,17 @@ bindsym $mod+r mode "resize"
 
 bar {
         status_command i3status -c /home/beangreen247/.config/i3/i3status.conf
-	set $bg-color             #2f343f
-	set $inactive-bg-color    #2f343f
-	set $text-color           #f3f4f5
-	set $inactive-text-color  #676E7D
+	set $bg-color             #000000
+	set $active-bg-color	  #ffffff
+	set $inactive-bg-color    #000000
+	set $text-color           #000000
+	set $inactive-text-color  #ffffff
 	set $urgent-bg-color      #E53935
 	colors {
 		background $bg-color
 		# class border background text indicator
 		separator #757575
-		focused_workspace	$bg-color		$bg-color		$text-color
+		focused_workspace	$active-bg-color	$active-bg-color	$text-color
 		inactive_workspace	$inactive-bg-color	$inactive-bg-color	$inactive-text-color
 		urgent_workspace	$urgent-bg-color	$urgent-bg-color	$text-color
 	}
