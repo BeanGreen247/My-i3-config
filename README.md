@@ -1,4 +1,7 @@
 # My i3 config
+
+![How it looks with Vim open](screen.png)
+
 Add repos and install packages
 ```
 sudo add-apt-repository ppa:kgilmer/speed-ricer
