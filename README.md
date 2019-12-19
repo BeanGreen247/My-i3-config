@@ -1,6 +1,6 @@
 # My i3 config
 
-![How it looks with Vim open](screen.png)
+![How it looks](screen.png)
 
 Add repos and install packages
 ```
