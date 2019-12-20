@@ -82,5 +82,6 @@ XKBOPTIONS="grp:alt_shift_toggle"
 
 BACKSPACE="guess"
 ```
+Make sure to reboot.
 
 That is it. Enjoy
