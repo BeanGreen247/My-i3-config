@@ -68,9 +68,9 @@ XKBOPTIONS=""
 BACKSPACE="guess"
 ```
 to this
-```
-NOTE: replace **cz** with your keyboard layout
 
+NOTE: replace **cz** with your keyboard layout
+```
 # KEYBOARD CONFIGURATION FILE
 
 # Consult the keyboard(5) manual page.
