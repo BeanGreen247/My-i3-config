@@ -186,8 +186,9 @@ exec xfce4-power-manager
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id compton
 
-exec "setxkbmap -option 'grp:alt_shift_toggle' -layout us,cz -variant ,qwerty"
-
+# Switch keyboard layout using Shift + Alt
+bindsym $Shift-Alt exec xkblayout-state set +1
+  
 ## Volume control
 
 # Path to volume control, without trailing slash
@@ -212,7 +213,7 @@ set $volumestep 5
 # Card number to control. (used with -a and -c)
 #   If not specified, i3-volume will let `amixer` use a default.
 #   List cards: aplay -l
-#set $alsacard 1
+set $alsacard 1
 
 # Uncomment to use alsa-utils (append "-c $alsacard" without quotes to override default card)
 #bindsym XF86AudioRaiseVolume exec $volumepath/volume -anp -i $volumestep -t $statuscmd -u $statussig
@@ -224,7 +225,7 @@ set $volumestep 5
 # Symbolic name for sink (numeric index not supported) (used with -s $sinkname)
 #   Recommended: comment out this setting and omit the -s option to use default sink
 #   List sink names: pacmd list-sinks | awk -F "[<>]" '/^\s+name: <.*>/{print $2}'
-#set $sinkname alsa_output.pci-0000_00_1b.0.analog-stereo
+set $sinkname alsa_output.usb-C-Media_Electronics_Inc._USB_Advanced_Audio_Device-00.iec958-stereo
 
 # Using pulseaudio-utils (append "-s $sinkname" without quotes to override default sink)
 #bindsym XF86AudioRaiseVolume exec $volumepath/volume -np -i $volumestep -t $statuscmd -u $statussig
@@ -237,5 +238,5 @@ bindsym $mod+Control+d exec $volumepath/volume -np -d $volumestep -n -t $statusc
 bindsym $mod+Control+m       exec $volumepath/volume -mn -t $statuscmd -n -u $statussig 
 
 # Switching default audio device
-bindsym $mod+Control+h exec pactl set-default-sink 0 
-bindsym $mod+Control+s exec pactl set-default-sink 1 
+#bindsym $mod+Control+h exec pactl set-default-sink 0 
+#bindsym $mod+Control+s exec pactl set-default-sink 1 
