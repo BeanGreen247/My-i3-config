@@ -25,7 +25,8 @@ cd build
 ../configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers                                               
 make
 git clone --recursive https://github.com/Airblader/xcb-util-xrm.git                                             
-cd xcb-util-xrm/                                                                                                                            
+cd xcb-util-xrm/   
+./autogen.sh
 rm -rf build                                                                                                    
 mkdir build                                                                                                     
 cd build                                                                                                        
