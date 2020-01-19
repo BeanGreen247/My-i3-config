@@ -23,7 +23,7 @@ rm -rf build
 mkdir build                                                                                                     
 cd build                                                                                                        
 ../configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers                                               
-make
+make -j4
 git clone --recursive https://github.com/Airblader/xcb-util-xrm.git                                             
 cd xcb-util-xrm/   
 ./autogen.sh
@@ -31,13 +31,13 @@ rm -rf build
 mkdir build                                                                                                     
 cd build                                                                                                        
 ../configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers                                               
-make                                                                                                            
+make -j4                                                                                                      
 sudo make install
 cd ..
 cd ..
 cd build                                                                                                        
 ../configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers                                               
-make
+make -j4
 sudo make install
 ```
 Next download the config files
