@@ -12,7 +12,7 @@ sudo apt install -y i3 i3blocks i3status xfce4-power-manager compton make
 ```
 Next run these commands
 ```
-sudo apt install -y libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev  libxkbcommon-dev libxkbcommon-x11-dev autoconf xutils-dev libtool automake libxcb-shape0-dev hibernate
+sudo apt install -y libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev  libxkbcommon-dev libxkbcommon-x11-dev autoconf xutils-dev libtool automake libxcb-shape0-dev hibernate libxcb-xrm-dev 
 git clone https://github.com/nonpop/xkblayout-state.git
 sudo cp -r xkblayout-state /usr/local/bin/
 git clone https://www.github.com/Airblader/i3 i3-gaps                                                           
