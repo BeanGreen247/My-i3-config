@@ -152,19 +152,19 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 # set some nice colors      border     background  text
-client.focused              #d500e7        #d500e7         #ffffff
-client.unfocused            #8b0097        #d500e7         #ffffff
-client.focused_inactive     #67006f        #d500e7         #ffffff
-client.urgent               #4900ff        #4900ff         #ffffff
+client.focused              #061437        #061437         #ffffff
+client.unfocused            #061437        #061437         #ffffff
+client.focused_inactive     #061437        #061437         #ffffff
+client.urgent               #703247        #703247         #ffffff
 
 bar {
         status_command i3status -c /home/beangreen247/.config/i3/i3status.conf
-	set $bg-color             #d500e7
-	set $active-bg-color	  #8b0097
-	set $inactive-bg-color    #67006f
+	set $bg-color             #061437
+	set $active-bg-color	  #ad7457
+	set $inactive-bg-color    #996150
 	set $text-color           #ffffff
 	set $inactive-text-color  #ffffff
-	set $urgent-bg-color      #4900ff
+	set $urgent-bg-color      #703247
 	colors {
 		background $bg-color
 		# class border background text indicator
@@ -184,7 +184,6 @@ bindsym $mod+Print exec gnome-screenshot -i
 
 exec xfce4-power-manager
 exec --no-startup-id nitrogen --restore
-exec --no-startup-id compton
 
 # Switch keyboard layout using Shift + Alt
 bindsym $Shift-Alt exec xkblayout-state set +1
