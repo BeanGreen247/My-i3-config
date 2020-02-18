@@ -9,7 +9,7 @@ sudo add-apt-repository -y ppa:kgilmer/speed-ricer
 sudo add-apt-repository -y ppa:aguignard/ppa                                                                       
 
 sudo apt update
-sudo apt install -y i3 i3blocks i3status xfce4-power-manager compton make
+sudo apt install -y i3 i3blocks i3status xfce4-power-manager compton make nitrogen
 ```
 Next run these commands
 ```
