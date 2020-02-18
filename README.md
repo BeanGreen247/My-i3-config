@@ -5,8 +5,8 @@
 Add repos and install packages
 ```
 sudo apt install -y software-properties-common
-sudo add-apt-repository ppa:kgilmer/speed-ricer
-sudo add-apt-repository ppa:aguignard/ppa                                                                       
+sudo add-apt-repository -y ppa:kgilmer/speed-ricer
+sudo add-apt-repository -y ppa:aguignard/ppa                                                                       
 
 sudo apt update
 sudo apt install -y i3 i3blocks i3status xfce4-power-manager compton make
