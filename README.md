@@ -4,6 +4,7 @@
 
 Add repos and install packages
 ```
+sudo apt install -y software-properties-common
 sudo add-apt-repository ppa:kgilmer/speed-ricer
 sudo add-apt-repository ppa:aguignard/ppa                                                                       
 
