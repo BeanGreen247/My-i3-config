@@ -9,7 +9,7 @@ sudo add-apt-repository -y ppa:kgilmer/speed-ricer
 sudo add-apt-repository -y ppa:aguignard/ppa                                                                       
 
 sudo apt update
-sudo apt install -y i3 i3blocks i3status imagemagick xdpyinfo xrandr xfce4-power-manager compton make nitrogen imagemagick feh bc
+sudo apt install -y i3 i3blocks i3status imagemagick xdpyinfo xrandr xfce4-power-manager compton make nitrogen imagemagick mpv feh bc
 ```
 Next run these commands
 ```
