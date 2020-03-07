@@ -61,6 +61,10 @@ wget -O ~/i3-volume/volume https://raw.githubusercontent.com/BeanGreen247/My-i3-
 ```
 sudo wget -O /usr/bin/betterlockscreen https://raw.githubusercontent.com/BeanGreen247/My-i3-config/master/betterlockscreen_file/betterlockscreen
 ```
+Make it executable
+```
+sudo chmod +x /usr/bin/betterlockscreen
+```
 Set wallpaper for betterlockscreen
 Syntax
 ```
