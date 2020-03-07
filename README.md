@@ -6,8 +6,14 @@ Add repos and install packages
 ```
 sudo apt install -y software-properties-common
 sudo add-apt-repository -y ppa:kgilmer/speed-ricer
-sudo add-apt-repository -y ppa:aguignard/ppa                                                                       
-
+sudo add-apt-repository -y ppa:aguignard/ppa   
+```
+Remove unneeded .list files to prevent errors while updating
+```
+sudo rm -rf /etc/apt/sources.list.d/*
+```
+Continue
+```
 sudo apt update
 sudo apt install -y i3 i3blocks i3status imagemagick xfce4-power-manager compton make nitrogen imagemagick mpv feh bc
 ```
