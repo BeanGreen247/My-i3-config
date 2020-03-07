@@ -59,7 +59,7 @@ wget -O ~/i3-volume/volume https://raw.githubusercontent.com/BeanGreen247/My-i3-
 ## Get betterlockscreen 
 [repo](https://github.com/pavanjadhaw/betterlockscreen) by [Pavan Jadhaw](https://github.com/pavanjadhaw) for this amazing lockscreen app
 ```
-wget -O /usr/bin/betterlockscreen https://raw.githubusercontent.com/BeanGreen247/My-i3-config/master/betterlockscreen_file/betterlockscreen
+sudo wget -O /usr/bin/betterlockscreen https://raw.githubusercontent.com/BeanGreen247/My-i3-config/master/betterlockscreen_file/betterlockscreen
 ```
 Set wallpaper for betterlockscreen
 Syntax
