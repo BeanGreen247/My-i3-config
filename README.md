@@ -62,6 +62,16 @@ wget -O ~/i3-volume/volume-notifications.png https://raw.githubusercontent.com/B
 wget -O ~/i3-volume/volume https://raw.githubusercontent.com/BeanGreen247/My-i3-config/master/i3-volume/volume
 ```
 
+## Get custom dmenu script
+```
+sudo wget -O /usr/bin/dmenu_recent_aliases https://raw.githubusercontent.com/BeanGreen247/My-i3-config/master/dmenu_recent_aliases
+```
+Make it executable
+```
+sudo chmod +x /usr/bin/dmenu_recent_aliases
+```
+To make the aliases work you need to get a .zsh_aliases, you can get mine [here]().
+
 ## Get betterlockscreen 
 [repo](https://github.com/pavanjadhaw/betterlockscreen) by [Pavan Jadhaw](https://github.com/pavanjadhaw) for this amazing lockscreen app
 ```
