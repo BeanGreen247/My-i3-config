@@ -70,7 +70,10 @@ Make it executable
 ```
 sudo chmod +x /usr/bin/dmenu_recent_aliases
 ```
-To make the aliases work you need to get a .zsh_aliases, you can get mine [here]().
+To make the aliases work with dmenu you need to get the zsh_aliases.zsh file if you are using zsh like me
+```
+sudo wget -O ~/.oh-my-zsh/zsh_aliases.zsh https://raw.githubusercontent.com/BeanGreen247/My-i3-config/master/zsh_aliases
+```
 
 ## Get betterlockscreen 
 [repo](https://github.com/pavanjadhaw/betterlockscreen) by [Pavan Jadhaw](https://github.com/pavanjadhaw) for this amazing lockscreen app
