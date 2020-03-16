@@ -61,26 +61,6 @@ mkdir i3-volume
 wget -O ~/i3-volume/volume-notifications.png https://raw.githubusercontent.com/BeanGreen247/My-i3-config/master/i3-volume/volume-notifications.png
 wget -O ~/i3-volume/volume https://raw.githubusercontent.com/BeanGreen247/My-i3-config/master/i3-volume/volume
 ```
-
-## Get betterlockscreen 
-[repo](https://github.com/pavanjadhaw/betterlockscreen) by [Pavan Jadhaw](https://github.com/pavanjadhaw) for this amazing lockscreen app
-```
-sudo wget -O /usr/bin/betterlockscreen https://raw.githubusercontent.com/BeanGreen247/My-i3-config/master/betterlockscreen_file/betterlockscreen
-```
-Make it executable
-```
-sudo chmod +x /usr/bin/betterlockscreen
-```
-Set wallpaper for betterlockscreen
-Syntax
-```
-betterlockscreen -u <path_to_picture_here>
-```
-Example
-```
-betterlockscreen -u ~/Pictures/Wallpapers/Space_Fantasy_Set/a_l_o_n_e__by_razmotekk-d5ow7ci.jpg
-```
-
 ## Enable keyboard switch
 
 Open the /etc/default/keyboard file 
