@@ -4,9 +4,7 @@
 
 Add repos and install packages
 ```
-sudo apt install -y software-properties-common
-sudo add-apt-repository -y ppa:kgilmer/speed-ricer
-sudo add-apt-repository -y ppa:aguignard/ppa   
+sudo apt install -y software-properties-common 
 ```
 Remove unneeded .list files to prevent errors while updating
 ```
@@ -45,10 +43,7 @@ cd ..
 cd build                                                                                                        
 ../configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers                                               
 make -j4
-sudo make install
-git clone https://github.com/PandorasFox/i3lock-color.git
-cd i3lock-color
-autoreconf -i && ./configure && make -j4                
+sudo make install              
 ```
 Next download the config files
 ```
@@ -96,5 +91,7 @@ XKBOPTIONS="grp:alt_shift_toggle"
 BACKSPACE="guess"
 ```
 Make sure to reboot.
+
+You can find the wallpaper on https://beangreen247.github.io/pages/wallpaper.html
 
 That is it. Enjoy
