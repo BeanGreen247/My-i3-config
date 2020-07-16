@@ -158,7 +158,7 @@ client.focused_inactive     #2b292c        #2b292c         #ffffff
 client.urgent               #703247        #703247         #ffffff
 
 bar {
-        status_command i3status -c /home/beangreen247/.config/i3/i3status.conf
+        status_command i3status -c /home/$USER/.config/i3/i3status.conf
 	set $bg-color             #2b292c
 	set $active-bg-color	  #b301f7
 	set $inactive-bg-color    #996150
