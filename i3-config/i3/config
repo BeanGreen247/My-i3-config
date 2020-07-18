@@ -187,7 +187,11 @@ exec --no-startup-id nitrogen --restore
 
 # Switch keyboard layout using Shift + Alt
 bindsym $Shift-Alt exec xkblayout-state set +1
-  
+
+# webcam for recording
+for_window [title="video0 - mpv"] floating enable
+for_window [title="video0 - mpv"] sticky enable
+
 ## Volume control
 
 # Path to volume control, without trailing slash
