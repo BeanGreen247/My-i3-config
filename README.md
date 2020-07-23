@@ -13,7 +13,7 @@ sudo rm -rf /etc/apt/sources.list.d/*
 Continue
 ```
 sudo apt update
-sudo apt install -y i3 i3blocks i3status imagemagick xfce4-power-manager compton make nitrogen imagemagick mpv feh bc
+sudo apt install -y i3 i3blocks i3status imagemagick make nitrogen imagemagick mpv feh bc
 ```
 Next run these commands
 ```
