@@ -10,10 +10,12 @@ Remove unneeded .list files to prevent errors while updating
 ```
 sudo rm -rf /etc/apt/sources.list.d/*
 ```
+Before you continue make sure to install [albert install guide](https://albertlauncher.github.io/installing/)
+
 Continue
 ```
 sudo apt update
-sudo apt install -y i3 i3blocks i3status imagemagick make nitrogen imagemagick mpv feh bc
+sudo apt install -y i3 i3blocks i3status imagemagick make nitrogen imagemagick mpv feh bc libmuparser2v5
 ```
 Next run these commands
 ```
@@ -92,6 +94,6 @@ BACKSPACE="guess"
 ```
 Make sure to reboot.
 
-You can find the wallpaper on https://beangreen247.github.io/pages/wallpaper.html
+You can find the wallpaper on https://beangreen247.github.io/
 
 That is it. Enjoy
