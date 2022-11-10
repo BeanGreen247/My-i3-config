@@ -88,6 +88,16 @@ BACKSPACE="guess"
 ```
 Make sure to reboot.
 
-You can find the wallpaper on https://beangreen247.github.io/
+You can find the wallpaper on http://beangreen247.xyz/
+
+make sure to do these steps as well
+
+```
+sudo apt install rofi
+git clone https://github.com/davatorium/rofi-themes.git
+sudo cp -r rofi-themes/User\ Themes/*.rasi /usr/share/rofi/themes/
+```
+
+next run `rofi-theme-selector` and pick `arc-red-dark`
 
 That is it. Enjoy
