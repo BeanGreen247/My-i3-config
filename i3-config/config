@@ -48,9 +48,10 @@ bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
 # custom colors
-bindsym $mod+d exec --no-startup-id dmenu_run -nb '#000000' -sf '#ffffff' -sb '#e92020' -nf '#e92020' 
+# bindsym $mod+d exec --no-startup-id -nb '#000000' -sf '#ffffff' -sb '#e92020' -nf '#e92020' 
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
+bindsym $mod+d exec --no-startup-id "XDG_DATA_DIRS=/home/beangreen247/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share rofi -drun-reload-desktop-cache -show-icons -terminal alacritty -font 'Source Sans 3 12' -modi drun,run -show drun
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
@@ -213,9 +214,12 @@ font pango:Monospace 8
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id piper
+exec --no-startup-id lxqt-policykit-agent
 
 # sleep
 bindsym $mod+Shift+s exec bash /home/beangreen247/scripts/sleep.sh
 
 # custom screenshot tool usage
 bindsym Print exec xfce4-screenshooter
+
+

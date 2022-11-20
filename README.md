@@ -15,7 +15,7 @@ Before you continue make sure to install [albert install guide](https://albertla
 Continue
 ```
 sudo apt update
-sudo apt install -y i3 i3blocks i3status imagemagick make nitrogen imagemagick mpv feh bc libmuparser2v5
+sudo apt install -y i3 i3blocks i3status imagemagick make nitrogen imagemagick mpv feh bc libmuparser2v5 lxqt-policykit
 ```
 Next run these commands
 ```
